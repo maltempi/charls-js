@@ -17,6 +17,11 @@ git submodules.  You must initialize it before building:
 
 > git submodule update --init --recursive
 
+## Docker
+```sh
+docker run -it --rm -v .:/src emscripten/emsdk /bin/bash
+```
+  
 ## Visual Studio Code Remote Containers Support
 
 This project includes support for building in a docker container using the 
